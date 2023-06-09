@@ -62,4 +62,9 @@ public class LiveDocument {
     public void setRegistrationDate(LocalDateTime registrationDate) {
         this.registrationDate = registrationDate;
     }
+
+    //cambions realizados al proyecto
+    public  String retornaNombre(){
+        return "Nombre del usuario: "+this.liveName;
+    }
 }
